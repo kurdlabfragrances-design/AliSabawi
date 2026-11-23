@@ -1,0 +1,286 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "عني",
+    "expertise": "الخبرات",
+    "services": "الخدمات",
+    "portfolio": "المعاملات",
+    "contact": "تواصل",
+    "letsTalk": "لنتحدث"
+  },
+  "hero": {
+    "title": "علي سبعاوي",
+    "subtitle": "خبير تقني | صانع محتوى رقمي | الأمن السيبراني",
+    "location": "الموصل، العراق",
+    "intro": "خبير تقني وصانع محتوى رقمي عراقي من مدينة الموصل، يتركز نشاطه في مجالات الأمن السيبراني، وحلول منصات التواصل الاجتماعي، وإدارة حسابات صنّاع المحتوى والمشاهير.",
+    "exploreExperience": "استكشف خبراتي"
+  },
+  "about": {
+    "title": "عني",
+    "content": "علي سبعاوي خبير تقني وصانع محتوى رقمي عراقي من مدينة الموصل (مواليد 1998). يُعرّف نفسه كخبير في أنظمة الحاسوب وتقنية المعلومات والمنصات الرقمية، مع اهتمام بأمن المعلومات وحماية الحسابات. يشغل منصب المدير التنفيذي لـمركز الحياة في العراق، ويقدّم خدمات عبر وكالة خاصة لصنّاع محتوى بث تيك توك المباشر (TikTok LIVE) والحلول الرقمية. يعمل في إدارة قنوات وحسابات المشاهير والفنانين على منصات مثل يوتيوب وفيسبوك وتيك توك. ينشر شروحات ونصائح تقنية حول أمن الحسابات، وحل مشكلات الأرباح والمعلومات الضريبية على المنصات الرقمية، واستعادة الحسابات أو معالجة الأعطال التقنية."
+  },
+  "expertise": {
+    "title": "الخبرات المهنية",
+    "items": {
+      "cybersecurity": {
+        "title": "الأمن السيبراني",
+        "description": "أمن المعلومات وحماية الخصوصية"
+      },
+      "socialMedia": {
+        "title": "إدارة التواصل الاجتماعي",
+        "description": "إدارة احترافية لمنصات التواصل الاجتماعي لصناع المحتوى والمشاهير"
+      },
+      "accountRecovery": {
+        "title": "استعادة الحسابات",
+        "description": "خدمات استعادة حسابات فيسبوك وإنستغرام"
+      },
+      "monetization": {
+        "title": "تحقيق الدخل",
+        "description": "سحب تحقيق الدخل وحلول الضرائب من فيسبوك ويوتيوب وتيك توك"
+      }
+    }
+  },
+  "services": {
+    "title": "الخدمات التقنية",
+    "subtitle": "خدمات احترافية مصممة لتلبية احتياجاتك",
+    "getStarted": "ابدأ الآن",
+    "accountRecovery": {
+      "title": "خدمات استعادة الحسابات",
+      "description": "خدمات احترافية لاستعادة حسابات فيسبوك وإنستغرام. نساعد في استعادة الوصول إلى حساباتك من خلال عمليات آمنة وموثقة.",
+      "facebook": "استعادة حساب فيسبوك حسب معلومات الحساب ومتطلبات الأهلية.",
+      "instagram": "استعادة حساب إنستغرام حسب متطلبات الأهلية."
+    },
+    "monetization": {
+      "title": "سحب تحقيق الدخل",
+      "description": "خدمات شاملة لسحب تحقيق الدخل من فيسبوك ويوتيوب وتيك توك. نتعامل مع سحب الإيرادات وحلول الضرائب بشكل احترافي.",
+      "facebook": "سحب تحقيق الدخل من فيسبوك، حسب العقد.",
+      "youtube": "سحب تحقيق الدخل من يوتيوب، حسب العقد.",
+      "tiktok": "سحب تحقيق الدخل من تيك توك."
+    }
+  },
+  "socialMediaPortfolio": {
+    "title": "معرض إدارة التواصل الاجتماعي",
+    "subtitle": "إدارة احترافية لحسابات التواصل الاجتماعي",
+    "clients": [
+      {
+        "name": "أبو جنة",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/abo.jana.Mosul",
+        "image": "/abojana.jpg"
+      },
+      {
+        "name": "عمر النقاش",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/omerwaed93/",
+        "image": "/omar-al-naqqash.png"
+      },
+      {
+        "name": "رائد الحلاق",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/raed.make2/",
+        "image": "/raad-alhalaq.jpg"
+      },
+      {
+        "name": "عمر العربي",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/omar.alarabi11/",
+        "image": "/omar-alrabi.jpg"
+      },
+      {
+        "name": "أمير سنوبي",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/samoyasin1449/",
+        "image": "/samoyasin.jpg"
+      },
+      {
+        "name": "شيفان الزبيدي",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/shyfan.i.i.2025/",
+        "image": "/sheivan-al-zubaidi.jpg"
+      },
+      {
+        "name": "درمان",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/drman.d1/",
+        "image": "/darman.jpg"
+      },
+      {
+        "name": "حسوني تزويد",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/61576798483661/?locale=it_IT",
+        "image": "/hassoni-tazweed.jpg"
+      },
+      {
+        "name": "أحمد لبنان",
+        "platform": "instagram",
+        "link": ""
+      },
+      {
+        "name": "أضف إعلانك هنا",
+        "platform": "instagram",
+        "link": ""
+      },
+      {
+        "name": "أضف إعلانك هنا",
+        "platform": "facebook",
+        "link": ""
+      },
+      {
+        "name": "أضف إعلانك هنا",
+        "platform": "tiktok",
+        "link": ""
+      }
+    ]
+  },
+  "corporateExperience": {
+    "title": "الخبرة الشركاتية",
+    "items": [
+      {
+        "company": "لارسا ميديا",
+        "role": "مدير الشركة",
+        "duration": "أربعة أشهر"
+      },
+      {
+        "company": "أم الربيعين",
+        "role": "ضابط أمن سيبراني",
+        "duration": "منذ تأسيس الشركة"
+      },
+      {
+        "company": "شركة الحج والعمرة",
+        "role": "الإدارة الرقمية والمتابعة",
+        "duration": ""
+      },
+      {
+        "company": "أرض الفرات",
+        "role": "إدارة الأعمال الرقمية والمتابعة",
+        "duration": ""
+      }
+    ]
+  },
+  "fashionRetail": {
+    "title": "إدارة صفحات الأزياء والتجزئة",
+    "items": [
+      {
+        "name": "أزياء الورد",
+        "platform": "instagram",
+        "link": "",
+        "image": ""
+      },
+      {
+        "name": "أزياء ثائر الجبوري",
+        "platform": "instagram",
+        "link": "",
+        "image": ""
+      },
+      {
+        "name": "أزياء الشريف",
+        "platform": "instagram",
+        "link": "",
+        "image": ""
+      },
+      {
+        "name": "عمر للزي العربي",
+        "platform": "instagram",
+        "link": "",
+        "image": ""
+      }
+    ]
+  },
+  "mediaPolitical": {
+    "title": "خبرة الإعلام والاتصالات السياسية",
+    "subtitle": "خبرة العمل الإعلامي والرقمي",
+    "items": [
+      {
+        "name": "عبدالرحيم الشمري",
+        "description": "العمل الإعلامي والرقمي لمدة عام",
+        "duration": "عام واحد"
+      },
+      {
+        "name": "ميزر الصوفي الشمري",
+        "description": "العمل الإعلامي والرقمي",
+        "duration": "مستمر"
+      }
+    ]
+  },
+  "pressCoverage": {
+    "title": "التغطية الصحفية والإعلامية",
+    "subtitle": "مقابلات ومقالات مميزة",
+    "articles": [
+      {
+        "title": "مقابلة مع علي سبعاوي",
+        "publication": "مكة نيوز",
+        "date": "2024",
+        "link": "https://www.makkahnews.sa/5387545.html"
+      },
+      {
+        "title": "خبير التكنولوجيا علي سبعاوي لدي شغف كبير في تطوير نفسي",
+        "publication": "صدى الأخبار",
+        "date": "2024",
+        "link": "https://sadaelakhbar.com/خبير-التكنولوجيا-علي-سبعاوي-لدي-شغف-كبير-في-تطوير-نفسي/"
+      },
+      {
+        "title": "ملف شخصي: علي سبعاوي",
+        "publication": "منهوم",
+        "date": "2024",
+        "link": "https://manhom.com/%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA/%D8%B9%D9%84%D9%8A-%D8%B3%D8%A8%D8%B9%D8%A7%D9%88%D9%8A/"
+      },
+      {
+        "title": "شكر وتقدير من قبيلة الجبور",
+        "publication": "فيسبوك - قبيلة الجبور",
+        "date": "2025",
+        "link": "https://www.facebook.com/pageAljbour/posts/%D9%86%D9%88%D8%AF-%D8%A3%D9%86-%D9%86%D8%B9%D8%A8%D8%B1-%D8%B9%D9%86-%D8%AE%D8%A7%D9%84%D8%B5-%D8%B4%D9%83%D8%B1%D9%86%D8%A7-%D9%88%D8%AA%D9%82%D8%AF%D9%8A%D8%B1%D9%86%D8%A7-%D9%84%D9%84%D8%AE%D8%A8%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D9%82%D9%86%D9%8A-%D8%B9%D9%84%D9%8A-%D8%A7%D9%84%D8%B3%D8%A8%D8%B9%D8%A7%D9%88%D9%8A-%D8%B9%D9%84%D9%89-%D8%AC%D9%87%D9%88%D8%AF%D9%87-%D8%A7%D9%84%D9%85%D8%AA%D9%85%D9%8A%D8%B2%D8%A9/1381749649987026/"
+      }
+    ],
+    "readArticle": "اقرأ المقال"
+  },
+  "timeline": {
+    "title": "الجدول الزمني المهني",
+    "items": [
+      {
+        "year": "2010",
+        "title": "بداية النشاط المهني",
+        "description": "بدأ النشاط المهني في التكنولوجيا والحلول الرقمية"
+      },
+      {
+        "year": "2010-الآن",
+        "title": "خبير تقني",
+        "description": "عمل مستمر في أنظمة الكمبيوتر وتقنية المعلومات والأمن السيبراني والحلول الرقمية"
+      },
+      {
+        "year": "مختلف",
+        "title": "مدير تنفيذي",
+        "description": "المدير التنفيذي السابق لمركز الحياة في العراق"
+      },
+      {
+        "year": "حديث",
+        "title": "المناصب الشركاتية",
+        "description": "ضابط أمن سيبراني في أم الربيعين، مدير شركة في لارسا ميديا"
+      }
+    ]
+  },
+  "contact": {
+    "title": "تواصل واستفسارات الأعمال",
+    "subtitle": "تواصل معنا للتعاون المهني",
+    "socialLinks": {
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "website": "الموقع",
+      "facebook": "فيسبوك",
+      "instagram": "إنستغرام",
+      "tiktok": "تيك توك",
+      "youtube": "يوتيوب",
+      "snapchat": "سناب شات"
+    }
+  },
+  "footer": {
+    "title": "علي سبعاوي | الخبير التقني | صانع محتوى رقمي | الأمن السيبراني",
+    "copyright": "© 2026 علي سبعاوي. جميع الحقوق محفوظة.",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة"
+  },
+  "common": {
+    "viewProfile": "عرض الملف الشخصي",
+    "pendingVerification": "الرابط بانتظار التحقق",
+    "contactForDetails": "تواصل للتفاصيل"
+  }
+}

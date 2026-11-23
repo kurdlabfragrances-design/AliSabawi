@@ -1,0 +1,286 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "expertise": "Expertise",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "letsTalk": "Let's Talk"
+  },
+  "hero": {
+    "title": "Ali Sabawi",
+    "subtitle": "Technology Expert | Digital Content Creator | Cybersecurity",
+    "location": "Mosul, Iraq",
+    "intro": "Iraqi technology expert and digital content creator from Mosul, specializing in cybersecurity, social media platform solutions, and managing accounts for content creators and public figures.",
+    "exploreExperience": "Explore My Experience"
+  },
+  "about": {
+    "title": "About Me",
+    "content": "Ali Sabawi is an Iraqi technology expert and digital content creator from Mosul (born 1998). He specializes in computer systems, information technology, cybersecurity, digital solutions, and social media platforms. He serves as the Executive Director of Al-Hayat Center in Iraq and provides specialized services for TikTok LIVE content creators and digital solutions. He manages channels and accounts for celebrities and artists on YouTube, Facebook, and TikTok. He publishes technical content on account security, solving platform monetization and tax issues, account recovery, and technical troubleshooting."
+  },
+  "expertise": {
+    "title": "Professional Expertise",
+    "items": {
+      "cybersecurity": {
+        "title": "Cybersecurity",
+        "description": "Information security and privacy protection"
+      },
+      "socialMedia": {
+        "title": "Social Media Management",
+        "description": "Professional social platform management for content creators and celebrities"
+      },
+      "accountRecovery": {
+        "title": "Account Recovery",
+        "description": "Facebook and Instagram account recovery services"
+      },
+      "monetization": {
+        "title": "Monetization",
+        "description": "Facebook, YouTube, and TikTok monetization withdrawal and tax solutions"
+      }
+    }
+  },
+  "services": {
+    "title": "Technical Services",
+    "subtitle": "Professional services tailored to your needs",
+    "getStarted": "Get Started",
+    "accountRecovery": {
+      "title": "Account Recovery Services",
+      "description": "Professional account recovery services for Facebook and Instagram. We help restore access to your accounts through secure and verified processes.",
+      "facebook": "Facebook account recovery subject to account information and eligibility requirements.",
+      "instagram": "Instagram account recovery subject to eligibility requirements."
+    },
+    "monetization": {
+      "title": "Monetization Withdrawal",
+      "description": "Complete monetization withdrawal services for Facebook, YouTube, and TikTok. We handle revenue withdrawal and tax-related solutions professionally.",
+      "facebook": "Facebook monetization withdrawal, subject to contract.",
+      "youtube": "YouTube monetization withdrawal, subject to contract.",
+      "tiktok": "TikTok monetization withdrawal."
+    }
+  },
+  "socialMediaPortfolio": {
+    "title": "Social Media Management Portfolio",
+    "subtitle": "Professional management of social media accounts",
+    "clients": [
+      {
+        "name": "Abu Jannah",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/abo.jana.Mosul",
+        "image": "/abojana.jpg"
+      },
+      {
+        "name": "Omar Al-Naqqash",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/omerwaed93/",
+        "image": "/omar-al-naqqash.png"
+      },
+      {
+        "name": "Raed Al-Hallaq",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/raed.make2/",
+        "image": "/raad-alhalaq.jpg"
+      },
+      {
+        "name": "Omar Al-Arabi",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/omar.alarabi11/",
+        "image": "/omar-alrabi.jpg"
+      },
+      {
+        "name": "Amir Sanobi",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/samoyasin1449/",
+        "image": "/samoyasin.jpg"
+      },
+      {
+        "name": "Sheivan Al-Zubaidi",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/shyfan.i.i.2025/",
+        "image": "/sheivan-al-zubaidi.jpg"
+      },
+      {
+        "name": "Daraman",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/drman.d1/",
+        "image": "/darman.jpg"
+      },
+      {
+        "name": "Hassoni Tazweed",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/61576798483661/?locale=it_IT",
+        "image": "/hassoni-tazweed.jpg"
+      },
+      {
+        "name": "Ahmed Lebanon",
+        "platform": "instagram",
+        "link": ""
+      },
+      {
+        "name": "Add your ads here",
+        "platform": "instagram",
+        "link": ""
+      },
+      {
+        "name": "Add your ads here",
+        "platform": "facebook",
+        "link": ""
+      },
+      {
+        "name": "Add your ads here",
+        "platform": "tiktok",
+        "link": ""
+      }
+    ]
+  },
+  "corporateExperience": {
+    "title": "Corporate Experience",
+    "items": [
+      {
+        "company": "Larsa Media",
+        "role": "Company Manager",
+        "duration": "Four months"
+      },
+      {
+        "company": "Um Al-Rubaieen",
+        "role": "Cybersecurity Officer",
+        "duration": "Since company establishment"
+      },
+      {
+        "company": "Hajj and Umrah Company",
+        "role": "Digital administration and follow-up",
+        "duration": ""
+      },
+      {
+        "company": "Ard Al-Furat",
+        "role": "Digital business administration and follow-up",
+        "duration": ""
+      }
+    ]
+  },
+  "fashionRetail": {
+    "title": "Fashion and Retail Page Management",
+    "items": [
+      {
+        "name": "Azyat Al-Ward",
+        "platform": "instagram",
+        "link": "",
+        "image": ""
+      },
+      {
+        "name": "Azyat Thaer Al-Jabouri",
+        "platform": "instagram",
+        "link": "",
+        "image": ""
+      },
+      {
+        "name": "Azyat Al-Sharif",
+        "platform": "instagram",
+        "link": "",
+        "image": ""
+      },
+      {
+        "name": "Omar for Arab Perfumes",
+        "platform": "instagram",
+        "link": "",
+        "image": ""
+      }
+    ]
+  },
+  "mediaPolitical": {
+    "title": "Media and Political Communications Experience",
+    "subtitle": "Media and digital work experience",
+    "items": [
+      {
+        "name": "Abdulrahim Al-Shammari",
+        "description": "Media and digital work for one year",
+        "duration": "One year"
+      },
+      {
+        "name": "Mezar Al-Sufi Al-Shammari",
+        "description": "Media and digital work",
+        "duration": "Ongoing"
+      }
+    ]
+  },
+  "pressCoverage": {
+    "title": "Press and Media Coverage",
+    "subtitle": "Featured interviews and articles",
+    "articles": [
+      {
+        "title": "Interview with Ali Sabawi",
+        "publication": "Makkah News",
+        "date": "2024",
+        "link": "https://www.makkahnews.sa/5387545.html"
+      },
+      {
+        "title": "خبير التكنولوجيا علي سبعاوي لدي شغف كبير في تطوير نفسي",
+        "publication": "Sada Al-Akhbar",
+        "date": "2024",
+        "link": "https://sadaelakhbar.com/خبير-التكنولوجيا-علي-سبعاوي-لدي-شغف-كبير-في-تطوير-نفسي/"
+      },
+      {
+        "title": "Ali Sabawi Profile",
+        "publication": "Manhom",
+        "date": "2024",
+        "link": "https://manhom.com/%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA/%D8%B9%D9%84%D9%8A-%D8%B3%D8%A8%D8%B9%D8%A7%D9%88%D9%8A/"
+      },
+      {
+        "title": "Appreciation from Al-Jbour Tribe",
+        "publication": "Facebook - Al-Jbour Tribe",
+        "date": "2025",
+        "link": "https://www.facebook.com/pageAljbour/posts/%D9%86%D9%88%D8%AF-%D8%A3%D9%86-%D9%86%D8%B9%D8%A8%D8%B1-%D8%B9%D9%86-%D8%AE%D8%A7%D9%84%D8%B5-%D8%B4%D9%83%D8%B1%D9%86%D8%A7-%D9%88%D8%AA%D9%82%D8%AF%D9%8A%D8%B1%D9%86%D8%A7-%D9%84%D9%84%D8%AE%D8%A8%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D9%82%D9%86%D9%8A-%D8%B9%D9%84%D9%8A-%D8%A7%D9%84%D8%B3%D8%A8%D8%B9%D8%A7%D9%88%D9%8A-%D8%B9%D9%84%D9%89-%D8%AC%D9%87%D9%88%D8%AF%D9%87-%D8%A7%D9%84%D9%85%D8%AA%D9%85%D9%8A%D8%B2%D8%A9/1381749649987026/"
+      }
+    ],
+    "readArticle": "Read Article"
+  },
+  "timeline": {
+    "title": "Professional Timeline",
+    "items": [
+      {
+        "year": "2010",
+        "title": "Professional Activity Begins",
+        "description": "Started professional activity in technology and digital solutions"
+      },
+      {
+        "year": "2010-Present",
+        "title": "Technology Expert",
+        "description": "Ongoing work in computer systems, IT, cybersecurity, and digital solutions"
+      },
+      {
+        "year": "Various",
+        "title": "Executive Director",
+        "description": "Former Executive Director of Al-Hayat Center in Iraq"
+      },
+      {
+        "year": "Recent",
+        "title": "Corporate Roles",
+        "description": "Cybersecurity Officer at Um Al-Rubaieen, Company Manager at Larsa Media"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact and Business Inquiries",
+    "subtitle": "Get in touch for professional collaboration",
+    "socialLinks": {
+      "email": "Email",
+      "phone": "Phone",
+      "website": "Website",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "youtube": "YouTube",
+      "snapchat": "Snapchat"
+    }
+  },
+  "footer": {
+    "title": "Ali Sabawi | Technology Expert | Digital Content Creator | Cybersecurity",
+    "copyright": "© 2026 Ali Sabawi. All Rights Reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "viewProfile": "View Profile",
+    "pendingVerification": "Link pending verification",
+    "contactForDetails": "Contact for details"
+  }
+}
