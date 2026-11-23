@@ -9,7 +9,7 @@ import { FaFacebook, FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa';
 
 type ExpertiseItem = { title: string; description: string };
 type PortfolioClient = { name: string; platform: string; link: string; image?: string };
-type CorporateExperienceItem = { company: string; role: string; duration: string };
+type CorporateExperienceItem = { company: string; role: string; duration: string; image?: string };
 type MediaPoliticalItem = { name: string; description: string; duration: string; platform?: string; link?: string; image?: string };
 type TimelineItem = { year: string; title: string; description: string };
 
@@ -566,9 +566,17 @@ export default function HomePage() {
                   key={index}
                   className="bg-card rounded-xl p-6 border border-border hover:border-primary dark:hover:border-secondary hover:shadow-lg transition-all text-center"
                 >
-                  <div className={`w-16 h-16 rounded-full bg-gradient-to-tr ${gradient} flex items-center justify-center mx-auto mb-4 shadow-md`}>
-                    <Building2 className="w-8 h-8 text-white" />
-                  </div>
+                  {item.image ? (
+                    <img
+                      src={item.image}
+                      alt={item.company}
+                      className="w-16 h-16 rounded-full object-cover mx-auto mb-4 ring-2 ring-primary/20 shadow-md"
+                    />
+                  ) : (
+                    <div className={`w-16 h-16 rounded-full bg-gradient-to-tr ${gradient} flex items-center justify-center mx-auto mb-4 shadow-md`}>
+                      <Building2 className="w-8 h-8 text-white" />
+                    </div>
+                  )}
                   <h3 className="text-lg font-bold text-foreground mb-2">{item.company}</h3>
                   <p className="text-primary dark:text-secondary text-sm mb-1">{item.role}</p>
                   {item.duration && <p className="text-foreground text-xs">{item.duration}</p>}
