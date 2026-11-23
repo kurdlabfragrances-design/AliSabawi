@@ -193,12 +193,18 @@
       {
         "name": "عبدالرحيم الشمري",
         "description": "العمل الإعلامي والرقمي لمدة عام",
-        "duration": "عام واحد"
+        "duration": "عام واحد",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/Abdallarhm.ashmrae/",
+        "image": "/abdulrahim-al-shammari.jpg"
       },
       {
         "name": "ميزر الصوفي الشمري",
         "description": "العمل الإعلامي والرقمي",
-        "duration": "مستمر"
+        "duration": "مستمر",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/MaizarAlsofi/",
+        "image": "/maizar-al-sufi.jpg"
       }
     ]
   },

@@ -193,12 +193,18 @@
       {
         "name": "Abdulrahim Al-Shammari",
         "description": "Media and digital work for one year",
-        "duration": "One year"
+        "duration": "One year",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/Abdallarhm.ashmrae/",
+        "image": "/abdulrahim-al-shammari.jpg"
       },
       {
         "name": "Mezar Al-Sufi Al-Shammari",
         "description": "Media and digital work",
-        "duration": "Ongoing"
+        "duration": "Ongoing",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/MaizarAlsofi/",
+        "image": "/maizar-al-sufi.jpg"
       }
     ]
   },

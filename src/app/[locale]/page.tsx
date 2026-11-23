@@ -10,7 +10,7 @@ import { FaFacebook, FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa';
 type ExpertiseItem = { title: string; description: string };
 type PortfolioClient = { name: string; platform: string; link: string; image?: string };
 type CorporateExperienceItem = { company: string; role: string; duration: string };
-type MediaPoliticalItem = { name: string; description: string; duration: string };
+type MediaPoliticalItem = { name: string; description: string; duration: string; platform?: string; link?: string; image?: string };
 type TimelineItem = { year: string; title: string; description: string };
 
 export default function HomePage() {
@@ -652,16 +652,45 @@ export default function HomePage() {
             {t('mediaPolitical.subtitle')}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {(t.raw('mediaPolitical.items') as MediaPoliticalItem[]).map((item, index) => (
-              <div
-                key={index}
-                className="bg-card rounded-xl p-6 border border-border"
-              >
-                <h3 className="text-xl font-bold text-foreground mb-2">{item.name}</h3>
-                <p className="text-foreground mb-2">{item.description}</p>
-                <p className="text-primary dark:text-secondary text-sm">{item.duration}</p>
-              </div>
-            ))}
+            {(t.raw('mediaPolitical.items') as MediaPoliticalItem[]).map((item, index) => {
+              const gradients = [
+                'from-pink-500 via-rose-500 to-red-500',
+                'from-purple-500 via-violet-500 to-indigo-500'
+              ];
+              const gradient = gradients[index % gradients.length];
+
+              return (
+                <div
+                  key={index}
+                  className="bg-card rounded-xl p-6 border border-border hover:border-primary dark:hover:border-secondary hover:shadow-lg transition-all text-center"
+                >
+                  {item.image ? (
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      className="w-16 h-16 rounded-full object-cover mx-auto mb-4 ring-2 ring-primary/20 shadow-md"
+                    />
+                  ) : (
+                    <div className={`w-16 h-16 rounded-full bg-gradient-to-tr ${gradient} flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl shadow-md`}>
+                      {item.name?.charAt(0)}
+                    </div>
+                  )}
+                  <h3 className="text-xl font-bold text-foreground mb-2">{item.name}</h3>
+                  <p className="text-foreground mb-2">{item.description}</p>
+                  <p className="text-primary dark:text-secondary text-sm mb-3">{item.duration}</p>
+                  {item.link && (
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-lg transition-colors text-sm font-medium"
+                    >
+                      {t('common.viewProfile')} →
+                    </a>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
