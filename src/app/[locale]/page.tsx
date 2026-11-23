@@ -365,32 +365,59 @@ export default function HomePage() {
               <div className={locale === 'ar' ? 'order-2 lg:order-1' : 'order-1 lg:order-1'}>
                 <div className="relative">
                   <div className="absolute -inset-4 bg-gradient-to-r from-secondary/20 to-primary/20 rounded-3xl blur-xl"></div>
-                  <div className="relative bg-gradient-to-br from-green-50 to-emerald-100 dark:from-navy-light dark:to-navy rounded-2xl p-8 shadow-xl">
-                    <div className="flex flex-col items-center text-center">
-                      <div className="w-24 h-24 bg-card rounded-full flex items-center justify-center mb-6 shadow-lg">
-                        <DollarSign className="w-12 h-12 text-green-600" />
-                      </div>
-                      <h4 className="text-xl font-bold text-foreground mb-2">{locale === 'ar' ? 'تحقيق الدخل' : 'Monetization'}</h4>
-                      <p className="text-foreground text-sm">{locale === 'ar' ? 'حلول سحب الإيرادات والضرائب' : 'Revenue withdrawal and tax solutions'}</p>
-                    </div>
-                    <div className="mt-8 grid grid-cols-3 gap-4">
-                      <div className="bg-card rounded-lg p-4 text-center shadow-md">
-                        <div className="w-10 h-10 bg-blue-100 dark:bg-navy-light rounded-lg flex items-center justify-center mx-auto mb-2">
-                          <FaFacebook className="w-5 h-5 text-blue-600" />
+                  <div className="relative bg-card rounded-3xl shadow-2xl border border-border overflow-hidden">
+                    <div className="h-1.5 bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500"></div>
+                    <div className="p-8 sm:p-10">
+                      <div className="flex items-center gap-4 mb-6">
+                        <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center shadow-lg shadow-green-500/30 flex-shrink-0">
+                          <DollarSign className="w-8 h-8 text-white" />
                         </div>
-                        <p className="text-xs text-foreground">{locale === 'ar' ? 'فيسبوك' : 'Facebook'}</p>
-                      </div>
-                      <div className="bg-card rounded-lg p-4 text-center shadow-md">
-                        <div className="w-10 h-10 bg-red-100 dark:bg-red-900/20 rounded-lg flex items-center justify-center mx-auto mb-2">
-                          <FaYoutube className="w-5 h-5 text-red-600" />
+                        <div className="text-start">
+                          <span className="inline-block text-xs font-semibold uppercase tracking-wider text-primary dark:text-secondary mb-1">
+                            {locale === 'ar' ? 'خدمة احترافية' : 'Professional Service'}
+                          </span>
+                          <h4 className="text-xl font-bold text-foreground">{locale === 'ar' ? 'تحقيق الدخل' : 'Monetization'}</h4>
                         </div>
-                        <p className="text-xs text-foreground">{locale === 'ar' ? 'يوتيوب' : 'YouTube'}</p>
                       </div>
-                      <div className="bg-card rounded-lg p-4 text-center shadow-md">
-                        <div className="w-10 h-10 bg-gradient-to-br from-gray-800 to-black dark:from-gray-700 dark:to-gray-900 rounded-lg flex items-center justify-center mx-auto mb-2">
-                          <FaTiktok className="w-5 h-5 text-white" />
+                      <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-8">
+                        {locale === 'ar' ? 'حلول سحب الإيرادات والضرائب' : 'Revenue withdrawal and tax solutions'}
+                      </p>
+                      <div className="grid grid-cols-3 gap-4">
+                        <div className="group bg-gray-50 dark:bg-navy-light/60 rounded-xl p-4 text-center border border-border hover:border-blue-500/50 hover:shadow-md transition-all">
+                          <div className="w-11 h-11 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
+                            <FaFacebook className="w-5 h-5 text-blue-600" />
+                          </div>
+                          <p className="text-sm font-semibold text-foreground">{locale === 'ar' ? 'فيسبوك' : 'Facebook'}</p>
+                          <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{locale === 'ar' ? 'حسب العقد' : 'Per contract'}</p>
                         </div>
-                        <p className="text-xs text-foreground">{locale === 'ar' ? 'تيك توك' : 'TikTok'}</p>
+                        <div className="group bg-gray-50 dark:bg-navy-light/60 rounded-xl p-4 text-center border border-border hover:border-red-500/50 hover:shadow-md transition-all">
+                          <div className="w-11 h-11 bg-red-100 dark:bg-red-900/30 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
+                            <FaYoutube className="w-5 h-5 text-red-600" />
+                          </div>
+                          <p className="text-sm font-semibold text-foreground">{locale === 'ar' ? 'يوتيوب' : 'YouTube'}</p>
+                          <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{locale === 'ar' ? 'حسب العقد' : 'Per contract'}</p>
+                        </div>
+                        <div className="group bg-gray-50 dark:bg-navy-light/60 rounded-xl p-4 text-center border border-border hover:border-gray-500/50 hover:shadow-md transition-all">
+                          <div className="w-11 h-11 bg-gray-800 dark:bg-gray-700 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
+                            <FaTiktok className="w-5 h-5 text-white" />
+                          </div>
+                          <p className="text-sm font-semibold text-foreground">{locale === 'ar' ? 'تيك توك' : 'TikTok'}</p>
+                          <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{locale === 'ar' ? 'خدمة مباشرة' : 'Direct service'}</p>
+                        </div>
+                      </div>
+                      <div className="mt-8 pt-6 border-t border-border flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs font-medium text-gray-500 dark:text-gray-400">
+                        <span className="inline-flex items-center gap-1.5">
+                          <CheckCircle className="w-4 h-4 text-green-500" />
+                          {locale === 'ar' ? 'سحب آمن' : 'Secure payout'}
+                        </span>
+                        <span className="inline-flex items-center gap-1.5">
+                          <CheckCircle className="w-4 h-4 text-green-500" />
+                          {locale === 'ar' ? 'سرعة في التنفيذ' : 'Fast turnaround'}
+                        </span>
+                        <span className="inline-flex items-center gap-1.5">
+                          <CheckCircle className="w-4 h-4 text-green-500" />
+                          {locale === 'ar' ? 'دعم مباشر' : 'Direct support'}
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -650,10 +677,9 @@ export default function HomePage() {
               <div
                 key={index}
                 className="relative pl-8 border-l-2 border-primary dark:border-secondary"
-                style={{ '--index': index } as React.CSSProperties}
               >
                 <div className="absolute left-0 top-0 w-4 h-4 -translate-x-1/2 bg-primary dark:bg-secondary rounded-full"></div>
-                <div className="timeline-card bg-card rounded-xl p-6 border border-border">
+                <div className="bg-card rounded-xl p-6 border border-border">
                   <span className="text-primary dark:text-secondary font-bold text-sm">{item.year}</span>
                   <h3 className="text-xl font-bold text-foreground mt-2 mb-2">{item.title}</h3>
                   <p className="text-foreground">{item.description}</p>

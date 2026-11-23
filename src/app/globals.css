@@ -82,31 +82,3 @@ html[dir="rtl"] body {
   font-family: var(--font-cairo), Arial, sans-serif;
 }
 
-@keyframes wire-pulse {
-  0%, 100% {
-    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4);
-    transform: scale(1);
-  }
-  50% {
-    box-shadow: 0 0 20px 5px rgba(59, 130, 246, 0.2);
-    transform: scale(1.02);
-  }
-}
-
-@keyframes wire-glow {
-  0%, 100% {
-    border-color: rgba(59, 130, 246, 0.3);
-  }
-  50% {
-    border-color: rgba(59, 130, 246, 0.8);
-  }
-}
-
-.timeline-card {
-  animation: wire-pulse 2s ease-in-out infinite;
-  animation-delay: calc(var(--index) * 0.2s);
-}
-
-.timeline-card:hover {
-  animation: wire-glow 1s ease-in-out infinite;
-}
