@@ -304,12 +304,54 @@ export default function HomePage() {
               <div className={locale === 'ar' ? 'order-1 lg:order-2' : 'order-2 lg:order-2'}>
                 <div className="relative">
                   <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-3xl blur-xl"></div>
-                  <div className="relative rounded-2xl overflow-hidden shadow-xl">
-                    <img
-                      src="/recovery.png"
-                      alt="Account Recovery"
-                      className="w-full h-auto object-cover"
-                    />
+                  <div className="relative bg-card rounded-3xl shadow-2xl border border-border overflow-hidden">
+                    <div className="h-1.5 bg-gradient-to-r from-primary via-secondary to-accent"></div>
+                    <div className="p-8 sm:p-10">
+                      <div className="flex items-center gap-4 mb-6">
+                        <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center shadow-lg shadow-blue-500/30 flex-shrink-0">
+                          <RotateCcw className="w-8 h-8 text-white" />
+                        </div>
+                        <div className="text-start">
+                          <span className="inline-block text-xs font-semibold uppercase tracking-wider text-primary dark:text-secondary mb-1">
+                            {locale === 'ar' ? 'خدمة مميزة' : 'Featured Service'}
+                          </span>
+                          <h4 className="text-xl font-bold text-foreground">{locale === 'ar' ? 'استعادة الحسابات' : 'Account Recovery'}</h4>
+                        </div>
+                      </div>
+                      <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-8">
+                        {locale === 'ar' ? 'عملية استعادة آمنة للحساب' : 'Secure account restoration process'}
+                      </p>
+                      <div className="grid grid-cols-2 gap-4">
+                        <div className="group bg-gray-50 dark:bg-navy-light/60 rounded-xl p-4 text-center border border-border hover:border-blue-500/50 hover:shadow-md transition-all">
+                          <div className="w-11 h-11 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
+                            <FaFacebook className="w-5 h-5 text-blue-600" />
+                          </div>
+                          <p className="text-sm font-semibold text-foreground">{locale === 'ar' ? 'فيسبوك' : 'Facebook'}</p>
+                          <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{locale === 'ar' ? 'حسب الأهلية' : 'By eligibility'}</p>
+                        </div>
+                        <div className="group bg-gray-50 dark:bg-navy-light/60 rounded-xl p-4 text-center border border-border hover:border-pink-500/50 hover:shadow-md transition-all">
+                          <div className="w-11 h-11 bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900/30 dark:to-pink-900/30 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
+                            <FaInstagram className="w-5 h-5 text-pink-600" />
+                          </div>
+                          <p className="text-sm font-semibold text-foreground">{locale === 'ar' ? 'إنستغرام' : 'Instagram'}</p>
+                          <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{locale === 'ar' ? 'حسب الأهلية' : 'By eligibility'}</p>
+                        </div>
+                      </div>
+                      <div className="mt-8 pt-6 border-t border-border flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs font-medium text-gray-500 dark:text-gray-400">
+                        <span className="inline-flex items-center gap-1.5">
+                          <CheckCircle className="w-4 h-4 text-green-500" />
+                          {locale === 'ar' ? 'عملية آمنة' : 'Secure process'}
+                        </span>
+                        <span className="inline-flex items-center gap-1.5">
+                          <CheckCircle className="w-4 h-4 text-green-500" />
+                          {locale === 'ar' ? 'سرعة في التنفيذ' : 'Fast turnaround'}
+                        </span>
+                        <span className="inline-flex items-center gap-1.5">
+                          <CheckCircle className="w-4 h-4 text-green-500" />
+                          {locale === 'ar' ? 'دعم مباشر' : 'Direct support'}
+                        </span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
