@@ -304,28 +304,12 @@ export default function HomePage() {
               <div className={locale === 'ar' ? 'order-1 lg:order-2' : 'order-2 lg:order-2'}>
                 <div className="relative">
                   <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-3xl blur-xl"></div>
-                  <div className="relative bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-navy-light dark:to-navy rounded-2xl p-8 shadow-xl">
-                    <div className="flex flex-col items-center text-center">
-                      <div className="w-24 h-24 bg-card rounded-full flex items-center justify-center mb-6 shadow-lg">
-                        <RotateCcw className="w-12 h-12 text-primary dark:text-secondary" />
-                      </div>
-                      <h4 className="text-xl font-bold text-foreground mb-2">{locale === 'ar' ? 'استعادة الحسابات' : 'Account Recovery'}</h4>
-                      <p className="text-foreground text-sm">{locale === 'ar' ? 'عملية استعادة آمنة للحساب' : 'Secure account restoration process'}</p>
-                    </div>
-                    <div className="mt-8 grid grid-cols-2 gap-4">
-                      <div className="bg-card rounded-lg p-4 text-center shadow-md">
-                        <div className="w-10 h-10 bg-blue-100 dark:bg-navy-light rounded-lg flex items-center justify-center mx-auto mb-2">
-                          <FaFacebook className="w-5 h-5 text-blue-600" />
-                        </div>
-                        <p className="text-xs text-foreground">{locale === 'ar' ? 'فيسبوك' : 'Facebook'}</p>
-                      </div>
-                      <div className="bg-card rounded-lg p-4 text-center shadow-md">
-                        <div className="w-10 h-10 bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900/20 dark:to-pink-900/20 rounded-lg flex items-center justify-center mx-auto mb-2">
-                          <FaInstagram className="w-5 h-5 text-pink-600" />
-                        </div>
-                        <p className="text-xs text-foreground">{locale === 'ar' ? 'إنستغرام' : 'Instagram'}</p>
-                      </div>
-                    </div>
+                  <div className="relative rounded-2xl overflow-hidden shadow-xl">
+                    <img
+                      src="/recovery.png"
+                      alt="Account Recovery"
+                      className="w-full h-auto object-cover"
+                    />
                   </div>
                 </div>
               </div>
