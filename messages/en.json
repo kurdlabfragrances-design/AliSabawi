@@ -105,9 +105,10 @@
         "image": "/hassoni-tazweed.jpg"
       },
       {
-        "name": "Ahmed Lebanon",
-        "platform": "instagram",
-        "link": ""
+        "name": "Mortabat Lubnan",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/Lobnainii/",
+        "image": "/mortabat-lubnan.jpg"
       }
     ]
   },
@@ -121,7 +122,7 @@
       },
       {
         "company": "Um Al-Rubaieen",
-        "role": "Cybersecurity Officer",
+        "role": "Cybersecurity Manager",
         "duration": "Since company establishment"
       },
       {
