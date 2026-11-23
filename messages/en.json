@@ -87,12 +87,6 @@
         "image": "/omar-alrabi.jpg"
       },
       {
-        "name": "Amir Sanobi",
-        "platform": "facebook",
-        "link": "https://www.facebook.com/samoyasin1449/",
-        "image": "/samoyasin.jpg"
-      },
-      {
         "name": "Sheivan Al-Zubaidi",
         "platform": "facebook",
         "link": "https://www.facebook.com/shyfan.i.i.2025/",
@@ -109,26 +103,6 @@
         "platform": "facebook",
         "link": "https://www.facebook.com/61576798483661/?locale=it_IT",
         "image": "/hassoni-tazweed.jpg"
-      },
-      {
-        "name": "Ahmed Lebanon",
-        "platform": "instagram",
-        "link": ""
-      },
-      {
-        "name": "Add your ads here",
-        "platform": "instagram",
-        "link": ""
-      },
-      {
-        "name": "Add your ads here",
-        "platform": "facebook",
-        "link": ""
-      },
-      {
-        "name": "Add your ads here",
-        "platform": "tiktok",
-        "link": ""
       }
     ]
   },

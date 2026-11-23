@@ -87,12 +87,6 @@
         "image": "/omar-alrabi.jpg"
       },
       {
-        "name": "أمير سنوبي",
-        "platform": "facebook",
-        "link": "https://www.facebook.com/samoyasin1449/",
-        "image": "/samoyasin.jpg"
-      },
-      {
         "name": "شيفان الزبيدي",
         "platform": "facebook",
         "link": "https://www.facebook.com/shyfan.i.i.2025/",
@@ -109,26 +103,6 @@
         "platform": "facebook",
         "link": "https://www.facebook.com/61576798483661/?locale=it_IT",
         "image": "/hassoni-tazweed.jpg"
-      },
-      {
-        "name": "أحمد لبنان",
-        "platform": "instagram",
-        "link": ""
-      },
-      {
-        "name": "أضف إعلانك هنا",
-        "platform": "instagram",
-        "link": ""
-      },
-      {
-        "name": "أضف إعلانك هنا",
-        "platform": "facebook",
-        "link": ""
-      },
-      {
-        "name": "أضف إعلانك هنا",
-        "platform": "tiktok",
-        "link": ""
       }
     ]
   },
