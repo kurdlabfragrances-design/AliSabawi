@@ -753,14 +753,6 @@ export default function HomePage() {
                 </a>
               </div>
             </div>
-            <div className="flex items-center gap-6">
-              <Link href="/privacy" className="text-foreground hover:text-primary dark:hover:text-secondary text-sm transition-colors">
-                {t('footer.privacy')}
-              </Link>
-              <Link href="/terms" className="text-foreground hover:text-primary dark:hover:text-secondary text-sm transition-colors">
-                {t('footer.terms')}
-              </Link>
-            </div>
             <p className="text-gray-500 dark:text-gray-400 text-sm">{t('footer.copyright')}</p>
           </div>
         </div>
