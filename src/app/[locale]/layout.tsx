@@ -1,7 +1,22 @@
 import type { Metadata } from "next";
+import { IBM_Plex_Sans, IBM_Plex_Sans_Arabic } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import "../globals.css";
+
+const plexSans = IBM_Plex_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-plex",
+  display: "swap",
+});
+
+const plexArabic = IBM_Plex_Sans_Arabic({
+  subsets: ["arabic"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-plex-ar",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Ali Sabawi | Technology Expert | Digital Content Creator | Cybersecurity",
@@ -35,7 +50,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       dir={dir}
-      className="h-full antialiased"
+      className={`${plexSans.variable} ${plexArabic.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider locale={locale} messages={messages}>
